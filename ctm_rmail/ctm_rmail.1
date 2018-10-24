@@ -8,14 +8,14 @@
 .\" $FreeBSD$
 .\"
 .Dd January 24, 1995
-.Dt CTM_MAIL 1
+.Dt CTM_MAIL 8
 .Os
 .Sh NAME
 .Nm ctm_smail ,
 .Nm ctm_dequeue ,
 .Nm ctm_rmail
 .Nd send and receive
-.Xr ctm 1
+.Xr ctm 8
 deltas via mail
 .Sh SYNOPSIS
 .Nm ctm_smail
@@ -38,7 +38,7 @@ deltas via mail
 .Op Ar
 .Sh DESCRIPTION
 In conjunction with the
-.Xr ctm 1
+.Xr ctm 8
 command,
 .Nm ctm_smail ,
 .Nm ctm_dequeue
@@ -297,7 +297,7 @@ You can retrieve this delta via ftp.
 You are then on your own!
 .Sh ENVIRONMENT
 If deltas are to be applied then
-.Xr ctm 1
+.Xr ctm 8
 and
 .Xr gunzip 1
 must be in your
@@ -421,7 +421,7 @@ manipulation in
 which allows
 .Nm ctm_rmail
 to execute
-.Xr ctm 1
+.Xr ctm 8
 on the
 .Pq non- Ns Fx
 machine that this example was taken from.
@@ -499,12 +499,12 @@ These messages go to
 .Em stderr
 or to the log file.
 Messages from
-.Xr ctm 1
+.Xr ctm 8
 turn up here too.
 Error messages should be self explanatory.
 .Sh SEE ALSO
-.Xr ctm 1 ,
-.Xr ctm 5
+.Xr ctm 5 ,
+.Xr ctm 8
 .\" .Sh HISTORY
 .Sh AUTHORS
 .An Stephen McKay Aq Mt mckay@FreeBSD.org
