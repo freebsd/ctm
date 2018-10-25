@@ -3,7 +3,7 @@
 PROG=	mkctm
 MAN=
 
-LIBADD=	md
+LDADD=	-l md
 
 test:	mkctm
 	rm -f tst.out*
