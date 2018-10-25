@@ -3,7 +3,6 @@
 .PATH: ${.CURDIR:H}/ctm_rmail
 
 PROG=	ctm_smail
-MAN=
 SRCS=	ctm_smail.c error.c
 
 CFLAGS+= -I${.CURDIR:H}/ctm_rmail
