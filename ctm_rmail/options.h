@@ -54,7 +54,6 @@
 
 static char *O_usage;
 static char *O_name;
-extern long atol();
 
 void
 pusage()
